@@ -1,0 +1,368 @@
+.vistoria__home__text__a {
+    margin-top: 40px;
+    display: block;
+    background-color: #3C5CCF;
+    color: #FFFFFF;
+    width: 400px;
+    padding: 16px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.vistoria__form {
+    margin-top: 200px;
+    border-top: 2px solid #34363E;
+    padding: 0 120px;
+    color: #CED4DA;
+}
+
+/*Informações Básicas*/
+.vistoria__form__infoB {
+    display: flex;
+    gap: 20px;
+}
+
+.vistoria__form__infoB__h3 {
+    margin-top: 85px;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.vistoria__form__infoB__div1 {
+    width: 60%;
+}
+
+.vistoria__form__infoB__div2 {
+    width: 40%;
+}
+
+.vistoria__form__infoB__div__label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.vistoria__form__infoB__div__label>input {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    background-color: #353535;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #353535;
+    padding: 10px 15px;
+    color: #CED4DA;
+}
+
+/*Condição da Bicicleta*/
+.vistoria__form__condB {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.vistoria__form__condB__textarea {
+    resize: none;
+    font-size: 1.2rem;
+    background-color: #353535;
+    border: none;
+    outline: none;
+    color: #CED4DA;
+    padding: 15px;
+}
+
+/*Acessórios*/
+
+
+.vistoria__form__acess {
+    display: flex;
+    gap: 20px;
+}
+
+.vistoria__form__acess__h3 {
+    margin-top: 85px;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.vistoria__form__acess__div1 {
+    width: 60%;
+}
+
+.vistoria__form__acess__div2 {
+    width: 40%;
+}
+
+.vistoria__form__acess__div__label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.vistoria__form__acess__div__label>input {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    background-color: #353535;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #353535;
+    padding: 10px 15px;
+    color: #CED4DA;
+}
+
+.vistoria__form__infoB__h3img {
+    margin-top: 85px;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.vistoria__form__infoB__h3p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 80px;
+}
+
+.vistoria__form__upload {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.vistoria__form__upload__bloco {
+    width: 300px;  
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.vistoria__form__upload__bloco__a {
+    display: block;
+    width: 100%;
+    border: 2px solid rgba(217, 217, 217, 0.8);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: #CED4DA;
+    border-radius: 5px;
+}
+
+.vistoria__form__upload__bloco__div {
+    border-radius: 5px;
+    border: 2px solid #d9d9d9cc;
+
+}
+
+.vistoria__form__upload__bloco__div__img {
+    width: 100%;
+    transform: scale(.4);
+    fill: #3C5CCF;
+}
+
+.vistoria__form__enviar {
+    display: block;
+    background-color: #3C5CCF;
+    color: #FFFFFF;
+    width: 300px;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 120px auto;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#texarea2 {
+    display: none;
+}
+#upload__img{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .vistoria__form {
+        margin-top: 250px;
+        padding: 0 50px;
+    }
+
+    .vistoria__form__infoB {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .vistoria__form__infoB__div1 {
+        width: 100%;
+    }
+
+    .vistoria__form__infoB__div2 {
+        width: 100%;
+    }
+
+    .vistoria__form__condB__p {
+        display: none;
+
+    }
+
+    .vistoria__form__condB__textarea {
+        display: none;
+    }
+
+    #texarea2 {
+        display: block;
+        resize: none;
+        font-size: 1.2rem;
+        background-color: #353535;
+        border: none;
+        outline: none;
+        color: #CED4DA;
+        padding: 15px;
+    }
+
+    .vistoria__form__acess {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .vistoria__form__acess__div1 {
+        width: 100%;
+    }
+
+    .vistoria__form__acess__div2 {
+        width: 100%;
+    }
+
+    .vistoria__form__acess__div__label {
+        flex: 1;
+        white-space: nowrap;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-between
+    }
+
+    .vistoria__form__acess__div__label>input {
+        flex: 2;
+        width: 100%;
+        border: none;
+        margin-top: 0;
+    }
+
+    .vistoria__form__infoB__h3img {
+        text-align: left;
+    }
+
+    .vistoria__form__infoB__h3p {
+        text-align: justify;
+        padding: 0;
+    }
+
+    .vistoria__form__upload__bloco {
+        width: 180px;
+    }
+
+    .vistoria__form__upload {
+        justify-content: space-evenly;
+
+    }
+
+    .vistoria__form__enviar {
+        margin: 60px auto;
+        width: 100%;
+    }
+    .vistoria__home__text__a{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #vistoria__text {
+        margin-top: 100px;
+    }
+
+    .vistoria__form {
+        margin-top: 170px;
+    }
+
+    .vistoria__form__infoB__div__label {
+        flex: 1;
+        white-space: nowrap;
+        margin-top: 30px;
+        flex-direction: row;
+        gap: 0;
+        align-items: center;
+        border-bottom: 1px solid #353535;
+        font-size: 1.1rem;
+    }
+    .vistoria__form__infoB__div__label>input {
+        flex: 2;
+        width: 100%;
+        background-color: transparent;
+        margin-top: 0;
+        font-size: 1.2rem;
+        border: none;
+        color: white;
+        font-size: 1.1rem;;
+    }
+    .vistoria__form__infoB__h3{
+        font-size: 2.2rem;
+    }
+    #texarea2{
+        font-size: 1.1rem;
+        height: 120px;
+    }
+    .vistoria__form__acess__div__label{
+        flex-direction: column;
+        align-items: start;
+        font-size: 1.1rem;
+    }
+    .vistoria__form__acess__div__label>input{
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    .vistoria__form__infoB__h3p{
+        font-size: 1.1rem;
+        line-height: 40px;
+
+    }
+    .vistoria__form__upload{
+        display: none;
+    }
+    #upload__img{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: #1E1E1E;
+        border-radius: 10px;
+        overflow: hidden;
+        gap: 15px;
+    }
+    #upload__img>a{
+        text-align: center;
+        padding: 10px 0;
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: white;
+        background-color: #3C5CCF;
+    }
+    #upload__img>div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+        height: 200px;
+    }
+    #upload__img>div>span{
+        padding: 10px 0;
+        background-color: rgba(242, 242, 243, 0.1);
+    }
+    .vistoria__form__enviar {
+        font-size: 1.4rem;      
+    }
+}

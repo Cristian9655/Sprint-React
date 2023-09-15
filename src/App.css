@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tektur:wght@400;500;600;700;800;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #212120;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid #34363E;
+}
+
+#logo{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+#logo:hover{
+    text-decoration: none;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    align-items: center;
+}
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 500;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.login-button button {
+    border: none;
+    border-radius: 5px;
+    background-color: #3C5CCF;
+    transition: all 200ms;
+}
+.login-button button:hover{
+    background-color: #4b6ada;
+}
+.login-button button a {
+    display: block;
+    padding: 15px 50px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+   
+    #logo-item{
+        display: block;
+    }
+    #logo{
+        font-size: 3.2rem;
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+    .icon{
+        transform: scale(1.5);
+        margin-right: 5px;
+    }
+    .nav-bar {
+        padding: 25px 0;
+    }
+    .nav-item {
+        display: none;
+        margin-right: 0;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 0 0;
+        padding-bottom: 0px;
+    }
+    .mobile-menu .login-button button {
+        padding: 0;
+        width: 100%;
+    }
+    .open {
+        display: block;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+
+    .nav-link{
+        display: block;
+        padding: 10px 0;
+        background-color: #353535;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    .nav-link:hover{
+        text-decoration: underline;
+    }
+    .login-button button{
+        border-radius: 0;
+    }
+    .login-button button a{
+        display: block;
+        width: 100%;
+        padding: 12px 50px;
+    }
+    .login-button button a:hover{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 600px) {
+    .nav-bar{
+        padding: 25px 0;
+    }
+    .mobile-menu .nav-item {
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+}
+
+
+
+footer{
+    background-color: #212120;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #34363E;
+    color: rgba(228, 229, 236, 0.7);
+}
